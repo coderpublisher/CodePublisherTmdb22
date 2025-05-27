@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CineScope</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p, ul {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .tmdb-disclaimer {
+            background-color: #e9f5fb;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-top: 25px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .last-updated {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.85em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for CineScope</h1>
+
+        <p>Welcome to CineScope! This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application.</p>
+        <p>By using CineScope, you agree to the collection and use of information in accordance with this policy.</p>
+
+        <h2>Information We Collect</h2>
+        <p>CineScope is designed to help you discover and track movies and TV shows. We collect information in the following ways:</p>
+        <ul>
+            <li><strong>Information you provide directly:</strong>
+                <ul>
+                    <li><strong>Search Queries:</strong> When you search for movies or TV shows, we process your search terms to fetch results.</li>
+                    <li><strong>Watchlist Information:</strong> If you use the watchlist feature, we store information about the movies and TV shows you add, mark as watched, or remove. This data is stored locally on your device and may be synced if cloud backup features are implemented.</li>
+                    <li><strong>Preferences:</strong> We may store your preferences, such as theme settings (light/dark mode), selected language, and region for content display. These are typically stored locally on your device.</li>
+                </ul>
+            </li>
+            <li><strong>Information collected automatically:</strong>
+                <ul>
+                    <li><strong>Usage Data:</strong> We may collect general, non-personally identifiable information about how you interact with the app, such as features used and session duration, to improve app performance and user experience. This data is anonymized.</li>
+                    <li><strong>Device Information:</strong> We may collect basic information about your device (e.g., operating system version) for troubleshooting and to optimize the app for your device. This does not include unique device identifiers that can personally identify you without your consent.</li>
+                </ul>
+            </li>
+            <li><strong>Information from Third-Party Services:</strong>
+                <ul>
+                    <li><strong>TMDB API:</strong> CineScope uses The Movie Database (TMDB) API to fetch movie and TV show information, including details, cast, ratings, images, and watch provider information. Our interaction with the TMDB API is governed by TMDB's own API terms of service and privacy policy. We do not send your personal watchlist data or specific user account information to TMDB, other than what is necessary to make API requests (e.g., region preferences for watch providers).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect for the following purposes:</p>
+        <ul>
+            <li>To provide and maintain the app's core functionality, such as searching for content, displaying details, and managing your watchlist.</li>
+            <li>To personalize your experience, for example, by displaying content relevant to your selected region or language.</li>
+            <li>To improve the app, including bug fixing, performance enhancements, and developing new features.</li>
+            <li>To respond to your support requests or feedback.</li>
+        </ul>
+        <p><strong>CineScope does not provide any content streaming services. We help you track and discover content.</strong></p>
+
+        <h2>Data Sharing and Disclosure</h2>
+        <p>We do not sell, trade, or rent your personally identifiable information to third parties.</p>
+        <p>We may share information under the following limited circumstances:</p>
+        <ul>
+            <li><strong>With Service Providers:</strong> We may employ third-party companies and individuals to facilitate our Service (e.g., TMDB for content data). These third parties have access to your information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</li>
+            <li><strong>For Legal Reasons:</strong> We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).</li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+        <p>Your watchlist data and preferences are primarily stored locally on your device. We take reasonable measures to protect the information submitted to us, both during transmission and once we receive it. However, no method of transmission over the Internet, or method of electronic storage, is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.</p>
+
+        <h2>Your Choices and Rights</h2>
+        <ul>
+            <li><strong>Watchlist Management:</strong> You can add, remove, and manage items in your watchlist directly within the app. Clearing your watchlist will remove this data from your device.</li>
+            <li><strong>App Preferences:</strong> You can modify your app preferences (e.g., theme, region) through the settings screen in the app.</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>CineScope is not intended for use by children under the age of 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personally identifiable information from children. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can take steps to remove that information.</p>
+
+        <h2>Third-Party Services (TMDB)</h2>
+        <div class="tmdb-disclaimer">
+            <p>This product uses the TMDb API but is not endorsed or certified by TMDb.</p>
+            <p>All movie and TV show data, images, and related content are provided by <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">The Movie Database (TMDB)</a>. Please review TMDB's <a href="https://www.themoviedb.org/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="https://www.themoviedb.org/documentation/api/terms-of-use" target="_blank" rel="noopener noreferrer">API Terms of Use</a> for more information on how they handle data.</p>
+        </div>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page within the app. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:privacy@example.com">privacy@example.com</a> (Replace with your actual contact email).</p>
+
+        <p class="last-updated">Last updated: [Insert Date of Last Update Here]</p>
+
+        <div class="footer">
+            &copy; [Year] CineScope. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
