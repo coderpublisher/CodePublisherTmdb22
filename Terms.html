@@ -1,91 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terms of Use</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        background-color: #f7f7f7;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 20px;
-        color: #333;
-      }
+<head>
+  <meta charset="UTF-8">
+  <title>Terms of Use | ShowScout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary: #1c1e26;
+      --accent: #00b4d8;
+      --surface: #23253a;
+      --text: #f1f1f1;
+      --secondary-text: #b0b3c6;
+      --border: #33354d;
+      --radius: 14px;
+      --shadow: 0 2px 16px rgba(0,0,0,0.12);
+    }
+    body {
+      background: var(--primary);
+      color: var(--text);
+      font-family: 'Segoe UI', 'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 700px;
+      margin: 48px auto;
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 40px 32px 32px 32px;
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3 {
+      color: var(--accent);
+      font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 2em;
+    }
+    p, li {
+      color: var(--secondary-text);
+      line-height: 1.7;
+      font-size: 1.07rem;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #90e0ef;
+    }
+    .brand {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      margin-bottom: 2em;
+      display: block;
+    }
+    @media (max-width: 600px) {
       .container {
-        max-width: 800px;
-        margin: 0 auto;
-        background: #fff;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 18px 8px;
       }
-      h1 {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      h2 {
-        margin-top: 30px;
-        border-bottom: 2px solid #e0e0e0;
-        padding-bottom: 5px;
-      }
-      p,
-      li {
-        line-height: 1.6;
-      }
-      ul {
-        margin-left: 20px;
-      }
-      footer {
-        text-align: center;
-        margin-top: 40px;
-        font-size: 0.9em;
-        color: #777;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Terms of Use</h1>
-      <p>Last updated: May 27, 2025</p>
-      
-      <h2>1. Acceptance of Terms</h2>
-      <p>
-        By accessing and using this website, you agree to be bound by these terms and conditions. If you do not agree to these terms, please do not use the site.
-      </p>
-      
-      <h2>2. Use of the Site</h2>
-      <p>
-        You agree to use the website only for lawful purposes and in a way that does not infringe the rights of or restrict the use of this site by any third party.
-      </p>
-      
-      <h2>3. Intellectual Property</h2>
-      <p>
-        All content on this site, including text, graphics, logos, and images, is the property of the website owners and is protected by applicable intellectual property laws.
-      </p>
-      
-      <h2>4. User Conduct</h2>
-      <p>
-        Users are responsible for ensuring that their contributions do not violate the rights of others or conflict with applicable laws.
-      </p>
-      
-      <h2>5. Disclaimer</h2>
-      <p>
-        The materials on this site are provided "as is" without any warranties, express or implied. The website owners are not responsible for any errors or omissions in the content.
-      </p>
-      
-      <h2>6. Limitation of Liability</h2>
-      <p>
-        In no event shall the website owners be liable for any direct, indirect, incidental, special, or consequential damages arising out of the use of this website.
-      </p>
-      
-      <footer>
-        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
-      </footer>
-    </div>
-  </body>
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="brand">ShowScout</span>
+    <h1>Terms of Use</h1>
+    <p>Last updated: May 27, 2025</p>
+    <p>
+      Welcome to ShowScout! By accessing or using this application, you agree to be bound by these Terms of Use. Please read them carefully.
+    </p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>
+      By using ShowScout, you agree to comply with and be legally bound by these Terms. If you do not agree, please do not use the app.
+    </p>
+
+    <h2>2. Description of Service</h2>
+    <p>
+      ShowScout is a Flutter-based application that helps users discover, track, and explore movies and TV shows. Data is provided by <a href="https://www.themoviedb.org/" target="_blank">TMDB</a> and other third-party sources.
+    </p>
+
+    <h2>3. User Responsibilities</h2>
+    <ul>
+      <li>You agree to use ShowScout only for lawful purposes and in accordance with these Terms.</li>
+      <li>You must not misuse, disrupt, or attempt to gain unauthorized access to the app or its related systems.</li>
+      <li>You are responsible for any activity that occurs under your usage of the app.</li>
+    </ul>
+
+    <h2>4. Intellectual Property</h2>
+    <p>
+      All content, trademarks, logos, and other intellectual property displayed in ShowScout are the property of their respective owners. Data provided by TMDB is subject to their <a href="https://www.themoviedb.org/terms-of-use" target="_blank">terms of use</a>.
+    </p>
+
+    <h2>5. Third-Party Links & Content</h2>
+    <p>
+      ShowScout may contain links to third-party websites or services. We do not control and are not responsible for their content or practices. Use them at your own risk.
+    </p>
+
+    <h2>6. Disclaimer of Warranties</h2>
+    <p>
+      ShowScout is provided "as is" and "as available" without warranties of any kind. We do not guarantee the accuracy, completeness, or reliability of any content or data.
+    </p>
+
+    <h2>7. Limitation of Liability</h2>
+    <p>
+      To the fullest extent permitted by law, ShowScout and its creators shall not be liable for any damages arising from your use of the app.
+    </p>
+
+    <h2>8. Changes to Terms</h2>
+    <p>
+      We may update these Terms from time to time. Continued use of ShowScout after changes constitutes acceptance of the new Terms.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+      For questions or feedback, contact us via the app's feedback feature or email at <a href="mailto:support@showscout.app">support@showscout.app</a>.
+    </p>
+
+    <hr style="border: none; border-top: 1px solid var(--border); margin: 2em 0;">
+    <p style="text-align: center; color: var(--secondary-text); font-size: 0.95em;">
+      &copy; 2025 ShowScout. Data provided by TMDB.
+    </p>
+  </div>
+</body>
 </html>
